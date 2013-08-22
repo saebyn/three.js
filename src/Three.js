@@ -6,6 +6,13 @@
 
 var THREE = THREE || { REVISION: '60' };
 
+
+if ( this['define'] !== undefined ) {
+  define('THREE', [], function () {
+    return THREE;
+  });
+}
+
 self.console = self.console || {
 
 	info: function () {},

@@ -1,0 +1,19 @@
+{
+  "name": "threejs",
+  "version": "0.59.0",
+  "description": "JavaScript 3D library",
+  "main": [
+    "build/three.js",
+    "build/three.min.js"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+  }
+}
